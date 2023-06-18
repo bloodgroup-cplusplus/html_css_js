@@ -32,7 +32,7 @@
     <header>
     <h2>The basic language of the web:HTML</h2>
     <img src="img/laura-jones.jpeg" alt="Headshot of Laura Jones" height="50" width="50"/>
-    <p> Posted by <strong>Laura Jones</strong> on Monday, June 21st 2023</p>
+    <p id="author"> Posted by <strong>Laura Jones</strong> on Monday, June 21st 2023</p>
 
     <img src="img/post-img.jpeg" alt="post-image" width="500" height="200" />
     
@@ -95,18 +95,18 @@
     </article>
     <aside>
         <h4>Related Posts</h4>
-        <ul>
+        <ul class="related">
             <li>
                 <img src="img/related-1.jpeg" alt="/a person programming" width="75" height="75"/>
                 <a href="#">How to learn Web Development</a>
-                <p>By Jonas Schmedtmann</p>
+                <p class="related-author">By Jonas Schmedtmann</p>
 
             </li>
 
             <li>
                 <img src="img/related-2.jpeg" alt="/lightning strike" width="75" height="75"/>
                 <a href="#">The unknown power of css</a>
-                <p>By Jim Dillion</p>
+                <p class="related-author">By Jim Dillion</p>
 
             </li>
 
@@ -114,7 +114,7 @@
             <li>
                 <img src="img/related-3.jpeg" alt="/its so dark" width="75" height="75"/>
                 <a href="#">Why Javascript is awesome</a>
-                <p>By Metilda</p>
+                <p class="related-author">By Metilda</p>
 
             </li>
 
@@ -128,7 +128,7 @@
         </ul>
     </aside>
     <footer>
-         <p>Copyright &copy Hopefully you learned something new here. See you next time!</p>
+         <p id="copyright">Copyright &copy Hopefully you learned something new here. See you next time!</p>
     </footer>
     
 </body>
