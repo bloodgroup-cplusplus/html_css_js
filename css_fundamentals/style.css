@@ -6,9 +6,13 @@ p,
 li,
 li{
     font-family:sans-serif;
+    color:#444444;
 }
 
 
+h1,h2,h3{
+    color:#1098ad;
+}
 
 
 
@@ -76,4 +80,24 @@ header p{
 
 .related{
     list-style:none;
+}
+
+
+.main-header{
+    background-color:#f7f7f7;
+}
+
+
+aside{
+    background-color:#f7f7f7f7;
+    border-top:5px dashed #1098ad;
+    border-bottom:5px dashed #1098ad;
+    /*just for completeness 
+    border-left
+    border-right*/
+
+}
+
+body{
+   /* background-color:blue;*/
 }
