@@ -101,3 +101,19 @@ aside{
 body{
    /* background-color:blue;*/
 }
+
+li:first-child{
+    font-weight:bold;
+}
+
+li:last-child{
+    font-weight:italic;
+}
+
+
+/* Styling Links */
+
+a:link{
+    color:#1098ad;
+    text-decoration:none;
+}
