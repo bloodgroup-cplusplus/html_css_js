@@ -137,19 +137,22 @@ a.active{
 /* LVHA */
 
 
+
+/*Resolving Conflicts*/
+
 #copyright{
-    color:red;
+    color: red;
 }
 
 .copyright{
-    color:blue;
+    color: blue;
 
 }
 
 .text{
-    color:yellow;
+    color: yellow;
 }
 
 footer p{
-    color:green
+    color:green;
 }
